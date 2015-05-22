@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node task.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Siedrix/gulp-browserify-setup/issues"
   },
-  "homepage": "https://github.com/Siedrix/gulp-browserify-setup"
+  "homepage": "https://github.com/Siedrix/gulp-browserify-setup",
+  "dependencies": {
+    "babelify": "^6.1.1",
+    "browserify": "^10.2.1",
+    "concatenify": "^1.0.0"
+  },
+  "devDependencies": {}
 }
